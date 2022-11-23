@@ -1,0 +1,39 @@
+body {
+    background: url("mountain1.png");
+    backdrop-filter: blur(15px);
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.docs {
+    border-radius: 20px;
+    font-size: 40px;
+    backdrop-filter: blur(5px);
+}
+
+.docs div {
+    color: rgb(3, 100, 107);
+    margin: 5px;
+}
+
+.cardo {
+    border: 2px white solid;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    border-radius: 20px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.img {
+    border-radius: 40%;
+    background-image: linear-gradient(to top, rgb(255, 119, 0), yellow);
+    background-image: linear-gradient(to bottom, rgb(141, 133, 151), rgb(28, 27, 35));
+    text-align: center;
+}
+
+.content {}
