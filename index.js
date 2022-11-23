@@ -22,7 +22,6 @@ let content = document.querySelector(".content")
 function fetchdata(data) {
     content.innerHTML = `
     <div>Country:<span> ${data.sys.country}</span></div>
-    <div>Country:<span> ${data.sys.country}&#176;</span></div>
     <div>city: <span>${data.name}</span></div>
     <div>state: <span>${data.weather[0].description}</span></div>
     <div>lat: <span>${data.coord.lat}</span></div>
